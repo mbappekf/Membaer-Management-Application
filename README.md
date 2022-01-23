@@ -1,8 +1,8 @@
 # SpringBootSample (Member Management Application)
-#### Video Demo:  <https://youtu.be/vGYzzUzmYn8>
+
 
 *********************
-CS50 -Final Project-
+Member Management Appplication
 *********************
 
 STACK etc (main)
