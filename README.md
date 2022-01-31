@@ -1,4 +1,4 @@
-# SpringBootSample (Member Management Application)
+# Member Management Application
 
 
 *********************
@@ -11,7 +11,7 @@ STACK etc (main)
 #### Thymeleaf  
 #### Bootstrap  
 #### html,css  
-####  MYSQL(database)
+#### MYSQL(database)
 
 
 # Overview
