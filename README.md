@@ -65,10 +65,3 @@ Display the details of the selected user. The password is hidden from the viewpo
 You can update the user name and delete the user information on this screen.  
 This is possible by pressing each button at the bottom.
 ![img_4.png](img_4.png)
-
-
-
-
-## Acknowledgements
-Thank you for all CS50.  
-- Where I get CS50 course? <https://cs50.harvard.edu/x/2020/>
