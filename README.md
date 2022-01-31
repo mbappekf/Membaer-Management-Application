@@ -5,13 +5,27 @@
 Member Management Appplication
 *********************
 
-STACK etc (main)
-#### Java  
-#### SpringBoot  
-#### Thymeleaf  
-#### Bootstrap  
-#### html,css  
-#### MYSQL(database)
+## STACK etc (main)  
+・Java  
+・SpringBoot  
+・Tymeleaf  
+・html, CSS  
+・BootStrap  
+
+Database  
+・MySQL
+
+## URL  
+・Signup page  
+http://localhost:8080/user/signup
+
+・Login page  
+
+
+・Main page  
+http://localhost:8080/user/list#
+
+
 
 
 # Overview
