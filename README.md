@@ -14,7 +14,7 @@ STACK etc (main)
 ####  MYSQL(database)
 
 
-#Overview
+# Overview
 ・I developed a web application using JAVA SpringBoot. It is possible to manage the members belonging to the organization.
 
 ・Implemented user registration, login, display of list on screen, update of personal information, etc.
@@ -22,14 +22,14 @@ STACK etc (main)
 ・The data stored in MYSQL was mapped and the data was linked by using MyBatis.
 
 
-##Signup
+## Signup
  Register the user. To register a user, you need to enter the user ID, password, user name, birthday, age, and gender.  
 As for gender, enter the form and use the selection form instead of the form.
 ![img.png](img.png)
  Press the Signup button to move to the login page.
  
 
-###-Validation
+### -Validation
 When registering as a user, if an input that does not meet the specified rules is detected, a warning will be issued without page transition. Specifically, if you do not follow the form below, a warning will be issued.
 
 ・User ID ------- email form
@@ -44,13 +44,13 @@ In addition, validation has a two-step check, and if the above rule is not satis
 ![img_1.png](img_1.png)
 
 
-##Login
+## Login
   The login screen requires you to enter your user ID and password. If the input is correct, press the Login button to move to the user list screen where you can check the registered users. 
  Press Signup at the bottom of the login button to move to the Signup screen.
 ![img_2.png](img_2.png)
 
 
-##User Table
+## User Table
   You can check the list of registered users on the user table page.  
 Extract data from MYSQL database. Map the data by using MyBatis.
 The mapped data is linked on the xml file.  
@@ -60,7 +60,7 @@ The mapped data is linked on the xml file.
   By pressing the detail button on the right side of the user list, you can move to the detail screen of each user.
 
 
-##User's Detail
+## User's Detail
 Display the details of the selected user. The password is hidden from the viewpoint of security.
 You can update the user name and delete the user information on this screen.  
 This is possible by pressing each button at the bottom.
@@ -69,6 +69,6 @@ This is possible by pressing each button at the bottom.
 
 
 
-##Acknowledgements
+## Acknowledgements
 Thank you for all CS50.  
 - Where I get CS50 course? <https://cs50.harvard.edu/x/2020/>
