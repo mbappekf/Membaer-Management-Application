@@ -6,12 +6,12 @@ Member Management Appplication
 *********************
 
 STACK etc (main)
-####JAVA
-####SpringBoot
-####Thymeleaf
-####Bootstrap
-####html,css
-####MYSQL (database)
+#### Java  
+#### SpringBoot  
+#### Thymeleaf  
+#### Bootstrap  
+#### html,css  
+####  MYSQL(database)
 
 
 #Overview
