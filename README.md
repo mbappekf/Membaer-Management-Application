@@ -41,7 +41,7 @@ http://localhost:8080/user/list#
 
 ・Implemented user registration, login, display of list on screen, update of personal information, etc.
 
-・The data stored in MYSQL was mapped and the data was linked by using MyBatis.
+・The data stored in MySQL was mapped and the data was linked by using MyBatis.
 
 
 ## Signup
