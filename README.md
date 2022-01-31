@@ -11,9 +11,13 @@ Member Management Appplication
 ・Tymeleaf  
 ・html, CSS  
 ・BootStrap  
+・MyBatis  
 
 Database  
-・MySQL
+・MySQL  
+
+Build tool  
+・gradle  
 
 ## URL  
 ・Signup page  
@@ -21,6 +25,9 @@ http://localhost:8080/user/signup
 
 ・Login page  
 
+sample:  
+ID : kaname.f.1995g@gmail.com  
+pass : Kaname8206
 
 ・Main page  
 http://localhost:8080/user/list#
