@@ -24,6 +24,7 @@ Build tool
 http://localhost:8080/user/signup
 
 ・Login page  
+http://localhost:8080/login  
 
 sample:  
 ID : kaname.f.1995g@gmail.com  
