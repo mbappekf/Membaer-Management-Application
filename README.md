@@ -82,7 +82,7 @@ Signupボタンを押下することでユーザー登録画面に遷移する�
 左上の「Member ~ 」を押下することでいつでもこのページに遷移することが可能です．  
 また，ページ右上にはLogoutボタンを設置し，押下することでいつでもログイン画面に遷移することが可能．  
 
-![img_3.png](img_3.png)  
+![main](https://user-images.githubusercontent.com/77096897/153190583-89bdc67f-f6fe-4bed-8a31-555722e00c41.png)
 
 
 ## User's Detail  
@@ -91,4 +91,4 @@ Signupボタンを押下することでユーザー登録画面に遷移する�
 また，パスワードは個人情報保護の観点から非表示にしています．  
 画面下にあるupdateボタンで入力した新しい情報の更新，deleteボタンで登録されたユーザーを削除することが可能です．  
 
-![img_4.png](img_4.png)
+![detail](https://user-images.githubusercontent.com/77096897/153190664-7737f987-af0c-4ce2-94b1-f220a2bdf38e.png)
