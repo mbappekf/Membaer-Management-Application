@@ -19,6 +19,11 @@ Database
 Build tool  
 ・gradle  
 
+
+I'm sorry, but I haven't deployed the application yet.  
+Below is a screenshot of the execution in the local environment, so please refer to it.  
+
+This is the URL under the local environment. Please use it if you like.　　
 ## URL  
 ・Signup page  
 http://localhost:8080/user/signup
