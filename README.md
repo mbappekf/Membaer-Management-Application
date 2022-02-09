@@ -48,7 +48,7 @@ http://localhost:8080/user/list#
 それぞれに入力フォームを用意し，性別の項目は入力フォームでは無く，選択フォーム仕様にしました．  
 
 ![img.png](img.png)
-Registerボタンを押すことでログイン画面に遷移します．  
+Signupボタンを押すことでログイン画面に遷移します．  
  
 
 ### -Validation
