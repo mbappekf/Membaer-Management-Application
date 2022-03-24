@@ -14,12 +14,13 @@ INSERT INTO m_user(
 ('user@co.jp', 'password', 'user1', '2000-01-01', '21','2','2', 'ROLE_GENERAL');
 */
 
-/*部署マスタ*/
+/*部署マスタ
 INSERT INTO m_department(
     department_id,
     department_name
 ) VALUES
 (1, 'System Management Department'), (2, 'Sales Department');
+*/
 
 /*給与テーブル*/
 INSERT INTO t_salary(
