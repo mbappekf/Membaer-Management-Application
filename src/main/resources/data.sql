@@ -23,6 +23,7 @@ INSERT INTO m_department(
 */
 
 /*給与テーブル*/
+/*
 INSERT INTO t_salary(
     user_id,
     year_mnt,
@@ -31,3 +32,4 @@ INSERT INTO t_salary(
 ('kaname.f.1995g@gmail.com', '1995/06', 280000),
 ('hikaru3532@gmail.com', '1998/01', 290000),
 ('mei@gmail.com', '1997/12', 300000);
+*/
