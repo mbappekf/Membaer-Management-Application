@@ -10,7 +10,7 @@ public interface UserService {
     public void signup(MUser user);
 
     /** get user **/
-    public List<MUser> getUsers();
+    public List<MUser> getUsers(MUser user);
 
     /**get user(one)**/
     public MUser getUserOne(String userId);

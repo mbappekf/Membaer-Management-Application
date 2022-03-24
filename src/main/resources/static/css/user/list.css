@@ -7,3 +7,9 @@
 .th-width{
     width: 200px;
 }
+
+.form-inline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
