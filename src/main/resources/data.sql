@@ -1,7 +1,5 @@
-INSERT INTO employee (id, name, age)
-VALUES ("1", 'Tom', 30);
-
 /*ユーザマスタ*/
+/*
 INSERT INTO m_user(
     user_id,
     password,
@@ -12,8 +10,9 @@ INSERT INTO m_user(
     department_id,
     role,
 ) VALUES
-('system@co.jp', 'password', 'System Administrator', '2000-01-01', 21,1,1, 'ROLE_ADMIN'),
-('user@co.jp', 'password', 'user1', '2000-01-01', 21,2,2, 'ROLE_GENERAL');
+('system@co.jp', 'password', 'System Administrator', '2000-01-01', '21','1','1', 'ROLE_ADMIN'),
+('user@co.jp', 'password', 'user1', '2000-01-01', '21','2','2', 'ROLE_GENERAL');
+*/
 
 /*部署マスタ*/
 INSERT INTO m_department(
@@ -22,13 +21,12 @@ INSERT INTO m_department(
 ) VALUES
 (1, 'System Management Department'), (2, 'Sales Department');
 
-/*給与テーブル
+/*給与テーブル*/
 INSERT INTO t_salary(
     user_id,
-    year_month,
+    year_mnt,
     salary
 ) VALUES
-('user@co.jp', '2020/11', 280000),
-('user@co.jp', '2020/12', 290000),
-('user@co.jp', '2021/01', 300000)
-;*/
+('kaname.f.1995g@gmail.com', '1995/06', 280000),
+('hikaru3532@gmail.com', '1998/01', 290000),
+('mei@gmail.com', '1997/12', 300000);

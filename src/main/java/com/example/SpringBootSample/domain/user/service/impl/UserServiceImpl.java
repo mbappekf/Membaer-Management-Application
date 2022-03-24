@@ -24,13 +24,15 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<MUser> getUsers(){
-        return mapper.findMany();
+    public List<MUser> getUsers(MUser user){
+
+        return mapper.findMany(user);
     }
 
     /**get user (one)**/
     @Override
     public MUser getUserOne(String userId){
+
         return mapper.findOne(userId);
     }
 
