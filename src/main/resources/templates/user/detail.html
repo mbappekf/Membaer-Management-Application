@@ -38,7 +38,19 @@
                     </tr>
                     <tr>
                         <th>Age</th>
+                        <td th:text="*{age}"></td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
                         <td th:text="*{gender == 1 ? 'man':'woman'}"></td>
+                    </tr>
+                    <tr>
+                        <th>Department</th>
+                        <td>
+                            <span th:if="*{department != null}"
+                              th:text="*{department.departmentName}">
+                            </span>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -49,6 +61,27 @@
                 <!--update button-->
                 <button class="btn btn-primary" type="submit" name="update">Update</button>
             </div>
+            <!--information of salary-->
+            <th:block th:if="*{salaryList != null and salaryList.size() > 0}">
+                <div class="header border-bottom">
+                    <h1 class="h2">Salary</h1>
+                </div>
+                <table class="table table-stripe table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th class="w-25">Y&M</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="item:*{salaryList}">
+                            <td th:text="${item.yearMonth}"></td>
+                            <td th:text="${#numbers.formatInteger(item.salary, 3, 'COMMA')}">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th:block>
         </form>
     </div>
 </body>
