@@ -1,74 +1,94 @@
-# SpringBootSample (Member Management Application)
-#### Video Demo:  <https://youtu.be/vGYzzUzmYn8>
+# Member Management Application
 
-*********************
-CS50 -Final Project-
-*********************
+## 使用技術  
+・Java  
+・SpringBoot  
+・Tymeleaf  
+・html, CSS  
+・BootStrap  
+・MyBatis  
 
-STACK etc (main)
-####JAVA
-####SpringBoot
-####Thymeleaf
-####Bootstrap
-####html,css
-####MYSQL (database)
+Database  
+・MySQL  
 
-
-#Overview
-・I developed a web application using JAVA SpringBoot. It is possible to manage the members belonging to the organization.
-
-・Implemented user registration, login, display of list on screen, update of personal information, etc.
-
-・The data stored in MYSQL was mapped and the data was linked by using MyBatis.
+Build tool  
+・gradle  
 
 
-##Signup
- Register the user. To register a user, you need to enter the user ID, password, user name, birthday, age, and gender.  
-As for gender, enter the form and use the selection form instead of the form.
+アプリケーションのディプロイまでは至っておりません．ローカル環境にて実行した様子をスクリーンショットにまとめましたので以下，参照いただけると幸いです．  
+
+
+## URL  
+
+よろしければ，ローカル環境での実行に以下ご活用ください．  
+
+・Signup page  
+http://localhost:8080/user/signup
+
+・Login page  
+http://localhost:8080/login  
+
+・sample(for login):  
+ID : kaname.f.1995g@gmail.com  
+pass : Kaname8206
+
+・Main page  
+http://localhost:8080/user/list#
+
+
+
+
+# Overview
+・Java SprongBoot を用いてwebアプリケーションを作成しました．組織内のメンバーを管理することが可能です．  
+・アプリケーション内にはユーザー登録，ログイン，ログアウト，登録されているデータの一覧表示，個人情報の更新などを実装しました．  
+・データベースにはMySQLを活用．MyBatisを用いてマッピングしました．
+
+## Signup
+ユーザーの新規登録が可能です．ユーザーID，パスワード，ユーザー名，生年月日，年齢と性別を入力することで登録が可能です．  
+それぞれに入力フォームを用意し，性別の項目は入力フォームでは無く，選択フォーム仕様にしました．  
+
 ![img.png](img.png)
- Press the Signup button to move to the login page.
+Signupボタンを押すことでログイン画面に遷移します．  
  
 
-###-Validation
-When registering as a user, if an input that does not meet the specified rules is detected, a warning will be issued without page transition. Specifically, if you do not follow the form below, a warning will be issued.
+### -Validation
+ユーザー登録に段階的なバリデーションを施しました．入力内容が規定のルールを見たさない場合，エラーメッセージによりその旨を表示します．  
+それぞれの入力ルールは下記のようになります．  
 
 ・User ID ------- email form
 
 ・password ------ with 4 digits or more and 100 digits or less
 
-・birthday ------ YYYY/MM/dd form
+・birthday ------ YYYY/MM/dd form  
 
- If you have not entered each item, you will be warned that you must enter it.
+ 入力フォームを満たしていてもすでに登録されているユーザー名などが入力された場合もエラーメッセージによりその旨を表示します．  
 
-In addition, validation has a two-step check, and if the above rule is not satisfied even if the input is completed, the page transition will not be performed.
 ![img_1.png](img_1.png)
+![validation](https://user-images.githubusercontent.com/77096897/153190133-65615bf2-d276-4615-8f30-bd3da07278f0.png)  
 
 
-##Login
-  The login screen requires you to enter your user ID and password. If the input is correct, press the Login button to move to the user list screen where you can check the registered users. 
- Press Signup at the bottom of the login button to move to the Signup screen.
+## Login
+予め登録されたユーザーIDとパスワードを入力数ることでシステムへのログインが可能です．Loginボタンを押下することでメイン画面に遷移します．  
+Signupボタンを押下することでユーザー登録画面に遷移することも可能です．  
+
 ![img_2.png](img_2.png)
 
 
-##User Table
-  You can check the list of registered users on the user table page.  
-Extract data from MYSQL database. Map the data by using MyBatis.
-The mapped data is linked on the xml file.  
- A sense of unity is created by using Bootstrap for the page layout. A User Table link is set up on the left side of the page. You can always transition to this page.  
- A logout button is installed in the upper right part of the page. You can log out of the system by pressing it.  
-![img_3.png](img_3.png)
-  By pressing the detail button on the right side of the user list, you can move to the detail screen of each user.
+## User Table
+登録されたユーザーの一覧を参照することが出来ます．  
+データベース上に保存されたユーザーデータをMyBatisを用いてマッピングさせ表示しています．  
+ユーザーの情報にはDetailボタンを付与し，押下することで各人の個人ページに遷移し詳細を確認することが可能です．  
+ページのレイアウトにはBootStrapを用いてシンプルな仕様にしました．  
+左上の「Member ~ 」を押下することでいつでもこのページに遷移することが可能です．  
+また，ページ右上にはLogoutボタンを設置し，押下することでいつでもログイン画面に遷移することが可能．  
+
+![main](https://user-images.githubusercontent.com/77096897/153190583-89bdc67f-f6fe-4bed-8a31-555722e00c41.png)
 
 
-##User's Detail
-Display the details of the selected user. The password is hidden from the viewpoint of security.
-You can update the user name and delete the user information on this screen.  
-This is possible by pressing each button at the bottom.
-![img_4.png](img_4.png)
+## User's Detail  
+ユーザーの情報を詳細に確認可能です．  
+データを参照できるだけでなく，ユーザー名の更新もこの画面上で可能です．  
+また，パスワードは個人情報保護の観点から非表示にしています．  
+画面下にあるupdateボタンで入力した新しい情報の更新，deleteボタンで登録されたユーザーを削除することが可能です．  
 
-
-
-
-##Acknowledgements
-Thank you for all CS50.  
-- Where I get CS50 course? <https://cs50.harvard.edu/x/2020/>
+![detail](https://user-images.githubusercontent.com/77096897/153190664-7737f987-af0c-4ce2-94b1-f220a2bdf38e.png)
