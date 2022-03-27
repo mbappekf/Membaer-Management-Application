@@ -44,10 +44,5 @@ test {
 }
 
 
-task stage(dependsOn: ['clean', 'installApp'])
-
-
-/*
 task stage(dependsOn: ['build', 'clean'])
 build.mustRunAfter clean
-*/
