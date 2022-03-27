@@ -46,9 +46,6 @@ test {
 
 task stage(dependsOn: ['clean', 'installApp'])
 
-task wrapper(type: Wrapper) {
-	gradleVersion = '2.0'
-}
 
 /*
 task stage(dependsOn: ['build', 'clean'])
