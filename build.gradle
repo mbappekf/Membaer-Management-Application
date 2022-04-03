@@ -74,6 +74,7 @@ flyway{
 	url = 'mysql://m02ir7s7nuexhawq:n1f9t1o2limxdil9@wb39lt71kvkgdmw0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/oxqm6guryueomuuf'
 	user = 'm02ir7s7nuexhawq'
 	password = 'n1f9t1o2limxdil9'
+	locations = ['classpath:db/migration']
 }
 
 
