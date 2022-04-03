@@ -77,10 +77,11 @@ flyway{
 }
 */
 
-
+/*
 flyway{
 	url = 'jdbc:mysql://localhost:3306/springbootdb'
 	user = 'root'
 	password = 'Kaname8206'
 	locations = ['classpath:db/migration']
 }
+*/
