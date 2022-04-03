@@ -12,6 +12,7 @@ plugins {
 	id 'org.springframework.boot' version '2.6.1'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'org.flywaydb.flyway' version '7.5.2'
 
 }
 
@@ -51,7 +52,7 @@ dependencies {
 	implementation 'org.modelmapper:modelmapper:2.3.0'
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.0'
 	testCompileOnly("org.springframework.boot:spring-boot-starter-test")
-
+	implementation 'org.flywaydb:flyway-core:7.7.3'
 }
 
 test {
@@ -60,10 +61,3 @@ test {
 
 task stage(dependsOn: ['build', 'clean'])
 build.mustRunAfter clean
-
-gradle.taskGraph.whenReady {
-	taskGraph ->
-		if (taskGraph.hasTask(stage)) {
-			test.enabled = false
-		}
-}
