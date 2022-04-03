@@ -69,16 +69,18 @@ gradle.taskGraph.whenReady{
 		}
 }
 
-/*
+
 flyway{
 	url = 'mysql://b484584d65c66a:3be946c2@us-cdbr-east-05.cleardb.net/heroku_03f30a7ab8c8350?reconnect=true'
 	user = 'b484584d65c66a'
 	password = '3be946c2'
 }
- */
 
+
+/*
 flyway{
 	url = 'jdbc:mysql://localhost:3306/springbootdb'
 	user = 'root'
 	password = 'Kaname8206'
 }
+ */
