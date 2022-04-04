@@ -28,3 +28,4 @@ CREATE TABLE IF NOT EXISTS t_salary(
     salary INT,
     PRIMARY KEY(user_id, year_mnt)
 );
+
