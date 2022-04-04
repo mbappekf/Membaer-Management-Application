@@ -65,7 +65,7 @@ build.mustRunAfter clean
 gradle.taskGraph.whenReady{
 	taskGraph ->
 		if(taskGraph.hasTask(stage)){
-			test.enabled = true
+			test.enabled = false
 		}
 }
 
