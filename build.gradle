@@ -51,7 +51,9 @@ dependencies {
 	implementation 'org.thymeleaf:thymeleaf:3.0.14.RELEASE'
 	implementation 'org.modelmapper:modelmapper:3.0.0'
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.0'
+	/*
 	testCompileOnly("org.springframework.boot:spring-boot-starter-test")
+	*/
 	implementation 'org.flywaydb:flyway-core:7.7.3'
 }
 
