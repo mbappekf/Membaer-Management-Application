@@ -10,7 +10,7 @@ public class IndexController {
     /**index画面の作成**/
     @GetMapping("/")
     public String getIndex(){
-        return "/index";
+        return "index/index";
     }
 
     /**login画面にリダイレクト**/
