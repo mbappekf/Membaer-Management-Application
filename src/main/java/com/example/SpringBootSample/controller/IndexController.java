@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
-public class indexController {
+public class IndexController {
 
     /**index画面の作成**/
     @GetMapping("/")
     public String getIndex(){
-        return "/";
+        return "/index";
     }
 
     /**login画面にリダイレクト**/
