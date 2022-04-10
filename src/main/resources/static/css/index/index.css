@@ -1,0 +1,11 @@
+.top-page-text{
+    margin: 16px auto;
+    text-align: center;
+    display: block;
+    border; 1px solid #000;
+}
+
+.top-page-text .text{
+    text-align: left;
+    display: inline-block;
+}
