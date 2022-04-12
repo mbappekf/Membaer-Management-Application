@@ -1,7 +1,7 @@
 .top-page-text{
     text-align: center;
     display: block;
-    background-image: url("back.jpg");
+    background-image: url("index/back.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -15,4 +15,8 @@
     border; 1px solid #000;
     font-size: 60px;
     background-color: rgba(225,225,225,0.8);
+}
+
+.back-g{
+    background-attachment: fixed;
 }
