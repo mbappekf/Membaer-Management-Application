@@ -1,15 +1,15 @@
 .top-page-text{
     text-align: center;
     display: block;
-    background-image: url("index/back.jpg");
+    background-image: url("back.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
 }
 
 .top-page-text .text{
-    margin: 800px auto;
-    font-family: 'Sriracha', cursive;
+    margin: 100px auto;
+    font-family: 'Lato', cursive;
     text-align: left;
     display: inline-block;
     border; 1px solid #000;
