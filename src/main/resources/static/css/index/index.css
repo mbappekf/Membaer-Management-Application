@@ -1,9 +1,9 @@
 .top-page-text{
-    margin: 40px auto;
+    margin: 100px auto;
     text-align: center;
     display: block;
     border; 1px solid #000;
-    font-size: 30px;
+    font-size: 60px;
     background-color: rgba(225,225,225,0.8);
 }
 
@@ -12,7 +12,7 @@
     display: inline-block;
 }
 
-body {
+.back-page {
     background-image: url("back.jpg");
     background-size: cover;
     background-attachment: fixed;
