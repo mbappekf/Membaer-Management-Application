@@ -2,17 +2,16 @@
     margin: 200px auto;
     text-align: center;
     display: block;
-    border; 1px solid #000;
-    font-size: 60px;
-    background-color: rgba(225,225,225,0.8);
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .top-page-text .text{
     text-align: left;
     display: inline-block;
-}
-
-body{
-    background-image: url("back.jpg");
-    background-size: cover;
+    border; 1px solid #000;
+    font-size: 60px;
+    background-color: rgba(225,225,225,0.8);
 }
