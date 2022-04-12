@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--css読み込み-->
-    <!--link rel="stylesheet" th:href="@{/webjars/bootstrap/5.1.1/css/bootstrap.min.css}"-->
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/5.1.1/css/bootstrap.min.css}">
     <link rel="stylesheet" th:href="@{/css/index/index.css}">
 
     <!--js読み込み-->
@@ -17,10 +17,10 @@
 <body class="back-page">
     <div class="top-page-text">
         <form method="post" th:action="@{/}" class="form-group">
-            <p class="text">
+            <h1 class="text">
                 Name, Age, Department...<br/>
                 Can you manage them properly?<br/>
-            </p>
+            </h1>
             <br/>
             <input type="submit" value="Need help?" class="btn btn-info"/>
         </form>

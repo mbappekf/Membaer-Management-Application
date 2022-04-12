@@ -1,3 +1,11 @@
+.back-page{
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
 .top-page-text{
     margin: 100px auto;
     text-align: center;
@@ -12,9 +20,3 @@
     display: inline-block;
 }
 
-.back-page {
-    background-image: url("back.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
