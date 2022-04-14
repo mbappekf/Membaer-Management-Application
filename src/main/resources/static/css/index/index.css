@@ -1,22 +1,18 @@
-.top-page-text{
-    text-align: center;
-    display: block;
+.page-layout{
     background-image: url("back.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
 }
 
-.top-page-text .text{
-    margin: 100px auto;
-    font-family: 'Lato', cursive;
-    text-align: left;
-    display: inline-block;
-    border; 1px solid #000;
-    font-size: 60px;
-    background-color: rgba(225,225,225,0.8);
+.message-top{
+    margin: 16px auto;
+    text-align: center;
+    display: block;
+    border: 1px solid #000;
 }
 
-.back-g{
-    background-attachment: fixed;
+.message-top .center-left{
+    text-align: left;
+    display: inline-block;
 }
