@@ -6,16 +6,14 @@ body{
 }
 
 .message-top{
-    margin: 16px auto;
+    margin: 50px auto;
     text-align: center;
     display: block;
+    font-family: arial;
+    color: white;
 }
 
 .message-top .center-left{
     text-align: left;
     display: inline-block;
-}
-
-.btn{
-    text-align: center;
 }
