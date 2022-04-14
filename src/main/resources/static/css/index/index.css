@@ -1,4 +1,4 @@
-.page-layout{
+body{
     background-image: url("back.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -9,7 +9,6 @@
     margin: 16px auto;
     text-align: center;
     display: block;
-    border: 1px solid #000;
 }
 
 .message-top .center-left{
