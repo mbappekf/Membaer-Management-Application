@@ -18,7 +18,7 @@
 
         <div class="mb-4">
             <form id="user-search-form" method="post" th:action="@{/user/list}"
-                  class="row gx-3 gy-2 align-items-center" th:object="${userListForm}">
+                  class="row gx-3 gy-2 align-items-center" th:object="${UserListForm}">
                 <div class="col-sm-3">
                     <label for="userId" class="visually-hidden">User ID</label>
                     <input type="text" class="form-control" th:field="*{userId}" placeholder="User ID"/>
