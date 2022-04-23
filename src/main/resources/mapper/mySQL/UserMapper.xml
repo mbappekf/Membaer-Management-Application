@@ -58,10 +58,10 @@
 
     <!--get multiple user-->
     <select id="findMany" resultType="MUser">
-        SELECT * FROM m_user
+        select * from m_user
         <where>
             <if test="userId != null">
-                and user_id like '%'||#{userId}||'%'
+                user_id like '%'||#{userId}||'%'
             </if>
             <if test="userName != null">
                 and user_name like '%'||#{userName}||'%'
