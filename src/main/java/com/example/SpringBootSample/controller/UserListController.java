@@ -55,6 +55,6 @@ public class UserListController {
         model.addAttribute("userList", userList);
 
         //user一覧画面を表示
-        return "user/list";
+        return "user/detail";
     }
 }
