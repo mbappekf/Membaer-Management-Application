@@ -14,29 +14,15 @@ Database
 Build tool  
 ・gradle  
 
-
-アプリケーションのディプロイまでは至っておりません．ローカル環境にて実行した様子をスクリーンショットにまとめましたので以下，参照いただけると幸いです．  
+Deploy
+・Heroku
 
 
 ## URL  
+[https://member-management-kf.herokuapp.com/](url)
 
-よろしければ，ローカル環境での実行に以下ご活用ください．  
-
-・Signup page  
-http://localhost:8080/user/signup
-
-・Login page  
-http://localhost:8080/login  
-
-・sample(for login):  
-ID : kaname.f.1995g@gmail.com  
-pass : Kaname8206
-
-・Main page  
-http://localhost:8080/user/list#
-
-
-
+・ログイン用ID : kaname@gmail.com
+・ログイン用Pass : Kaname8206
 
 # Overview
 ・Java SprongBoot を用いてwebアプリケーションを作成しました．組織内のメンバーを管理することが可能です．  
